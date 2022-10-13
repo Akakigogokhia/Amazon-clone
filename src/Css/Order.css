@@ -1,0 +1,35 @@
+.body {
+    margin: 0;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+}
+
+.order_id {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.order_total {
+    font-weight: 500;
+    text-align: right;
+}
+
+@media only screen and (max-width: 860px) {
+    .order {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    .order {
+        width: 70%;
+    }
+}

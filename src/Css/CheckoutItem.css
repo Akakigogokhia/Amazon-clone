@@ -1,0 +1,104 @@
+.checkoutItem {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    padding: 1.46vw;
+    margin: 1.46vw;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 25px;
+}
+
+.checkoutItem__desc {
+    margin: 1.09vw;
+    display: flex;
+    flex-direction: column;
+    margin-top:0.733vw;
+    text-align: left;
+}
+
+.checkoutItem__options {
+    margin-top: 1.46vw;
+    display: flex;
+    justify-content: start;
+    width: 19.71vw;
+}
+
+.checkoutItem__title {
+   font-size: 1.46vw;
+   line-height: 1.8;
+   font-weight: 700;
+}
+
+.checkoutItem__price {
+    margin-left: auto;
+    margin-bottom: auto;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.checkoutItem__options > a {
+    margin-left: 1em;
+}
+
+.checkoutItem__checkbox {
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.checkoutItem__image {
+    width: 13.14vw;
+    height: 13.14vw;
+    object-fit: contain;
+}
+
+a {
+    color: #009AC8;
+    font-size: 1.03vw;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.checkoutItem__select {
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 900px) {
+    .checkoutItem__title {
+        font-size: 1.7vw;   
+        line-height: 20px;
+        font-weight: 700;
+     }
+     .checkoutItem__image {
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .checkoutItem__title {
+        font-size: 2.8vw;   
+        line-height: 15px;
+        font-weight: 700;
+     }
+     .checkoutItem__image {
+        width: 25vw;
+        height: 25vw;
+    }
+    a, select {
+        font-size: 1.5vw;
+        line-height: 10px;
+    }
+    .checkoutItem {
+        line-height: 11px;
+    }
+}
+
+
+
+

@@ -1,0 +1,144 @@
+.header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 7.3vw;
+    object-fit: contain;
+    margin: 0px 1.6vw;
+    margin-top: 1.314vw;
+}
+
+.header__searchIcon {
+    padding: 0.365vw;
+    height: 1.971vw !important;
+    background-color: #cd9042;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 1.752vw;
+}
+
+.header__searchInput {
+    height: 1.241vw;
+    padding: 0.73vw;
+    border: none;
+    border-radius: 2px;
+    width: 92%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__optionLineOne {
+    font-size: 0.82vw;
+    text-align: start;
+}
+
+.header__optionLineTwo {
+    font-size: 1.04vw;
+    font-weight: 700;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.header__flag {
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    cursor: pointer;
+    width: 4.38vw;
+    margin: 0.292vw;
+}
+
+.header__flag > img {
+    width: 1.82vw;
+    height: 1.16vw;
+}
+
+.header__cont {
+    display: flex;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    
+    border-top: 4.5px solid rgb(168, 165, 165);
+    margin-top: 0.766vw;
+    margin-left: 5px;
+  }
+
+.header__cont {
+    margin-right: 5px;
+}
+
+.header_location{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    .header {
+        height: 10vw;
+    }
+    .header__flag {
+        margin: 2vw;
+    }
+    .header__flag > img {
+        width: 2vw;
+        height: 1.34vw;
+    }
+    .header__optionLineOne {
+        font-size: 1.6vw;
+        text-align: start;
+    }
+    
+    .header__optionLineTwo {
+        font-size: 1.82vw;
+        font-weight: 700;
+    }
+    
+}
